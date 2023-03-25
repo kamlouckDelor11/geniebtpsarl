@@ -1,0 +1,256 @@
+
+@media screen and (max-width:930px) {
+    
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500;600;700&display=swap');
+
+    body{
+        background: #e4dede5d; 
+        height: 100%;
+    background: url(images-gbs/img-devis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    }
+
+    .btn__humberger{
+
+        display: block; 
+    }
+
+    header .social-media{
+        display: none;
+    }
+
+    ul{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        flex-direction: column;
+        position: absolute;
+        left: 50%;
+        top: -100%;
+        z-index: 200;
+        background: #000; 
+        background: #ffffff8e;
+    }
+
+    ul.navbar__active{
+        top: 10%;
+
+    }
+
+
+    ul li a{
+        padding: 5px;
+        font-size: 15px;
+        text-decoration: none;
+        color: #f1cb6a;
+        /* box-shadow: 5px 10px 5px #111f11;    */
+    }
+    
+    .img-container{
+        display: none;
+    }
+
+    
+  
+    .panel{
+        text-align: justify;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* position: relative; */
+    }
+    
+    .slide.active{
+        opacity: 1;
+    }
+     
+    .bg0{
+        margin-bottom: 0px;
+    }
+
+    .bg{
+        width: 100%;
+        /* color: #f1cb6a; */
+        /* background-image: url(images/fond_page.jpg); */
+        /* font-family: 'Dancing Script', cursive; */
+        display: flex;
+        height: auto;
+    }
+    
+/*     
+    .text-container{
+        width: 100%;
+        height: 100%;
+       position: absolute;
+       padding: 15px;
+       text-align: center;
+       background: #111f11ab;
+       top: 50%; 
+       transform: translateY(-50%);
+       text-align: center;
+    
+    } */
+    
+    
+    
+    .text-container h2{
+        display: block;
+        /* border: solid #f1cb6a; */
+        font-size: 20px;
+        color: #ffff;
+        background: #111f11ab;
+        border: none;
+      
+    }
+    header a{
+        background: none;
+    }
+
+    .text-container h2, p, a{
+        background: #111f11ab;
+    }
+
+    footer a{
+        background: none;
+    }
+
+    .text-container{
+
+        color: #0c0655;
+        background: #ffffff8e;
+      
+    }
+
+    .text-container p{
+        font-size: 20px;
+        color: #0c0655;
+    }
+    
+    .img-container{
+       padding: 10px;
+    }
+    .section-detail{
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+        /* display: grid;
+        grid-template-columns: repeat(auto-fill, 100%); */
+        grid-gap: 15px;
+        justify-content: center;
+        /* margin-top: 35px; */
+        /* margin-bottom: 35px; */
+    }
+ 
+
+    footer{
+        flex-direction: column;
+      }
+
+      .star{
+        background: #111f11ab;
+        display: none;
+      }
+
+      .section-prestation{
+        padding-bottom: 15px;
+        /* background: url(images-gbs/img-devis.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed; */
+        background:#ffffff8e;
+    }
+      
+  }
+
+  @media screen and (max-width:630px){
+
+  } 
+
+  @media screen and (max-width:400px){
+    .bg p{
+        background: #111f11ab;
+        font-size: 20px;
+        height: 100%;
+        padding: 5px;
+    }
+
+    .text-container a{
+        text-decoration: none;
+        font-size: 16px;
+        display: block;
+        background: #111f11ab;
+        padding: 5px;
+    
+    }
+  
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:#111f11;
+        color: #f1cb6a;
+        font-weight: 900;
+        z-index: 1000;
+        background: #111f112d;
+        width: 100%;
+        padding: 0px;  
+    }
+
+    .section-prestation{
+        padding-bottom: 15px; 
+    }
+
+    .bg0{
+        position: relative;
+        margin-bottom: 0px;
+    }
+
+    .img-container{
+        padding: 0;
+    }
+
+
+}
+
+  @media screen and (max-height:314px){
+    .slide{
+        /* position: absolute; */
+        width: 100%;
+        /* height: 100vh; */
+        opacity: 0;
+        /* height: 1000px; */
+        margin-bottom: 45px;
+    }
+
+    .bg{
+        margin-bottom: 100px;
+    }
+
+    .bg img{
+        height: 150px;
+    }
+
+
+  }
+
+  
+  @media screen and (max-height:150px){
+    .slide{
+        /* position: absolute; */
+        width: 100%;
+        opacity: 0;
+        margin-bottom: 55px;
+    }
+
+    .bg{
+        margin-bottom: 100px;
+    }
+
+    .img-container img{
+        height: 150px;
+    }
+
+  }
